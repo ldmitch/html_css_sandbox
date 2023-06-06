@@ -6,3 +6,17 @@ body {
     background-color: aliceblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+p {
+    color: slateblue;
+}
+
+ul {
+    border-width: 2px;
+    border-style: solid;
+    border-color: slateblue;
+}
+
+li {
+    text-shadow: 1px 1px lightskyblue;
+}
