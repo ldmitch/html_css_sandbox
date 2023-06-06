@@ -7,13 +7,13 @@
     <h1>HTML Forms</h1>
     <form>
         <label for="username">Enter username:</label>
-        <input type="text" id="username" name="username">
+        <input type="text" id="username" name="username" placeholder="username">
         <br><br>
         <label for="email">Enter email address:</label>
-        <input type="email" id="email" name="email">
+        <input type="email" id="email" name="email" placeholder="email address">
         <br><br>
         <label for="password">Enter password:</label>
-        <input type="password" id="password" name="password">
+        <input type="password" id="password" name="password" placeholder="password">
 
         <p>Select your age:</p>
         <input type="radio" name="age" value="0-25" id="option-1">
@@ -27,17 +27,23 @@
 
         <label for="">Security question:</label>
         <select name="question" id="question">
+            <option value="q-empty"></option>
             <option value="q1">What colour is your favourite pair of socks?</option>
             <option value="q2">If you could be a vegetable, which would it be?</option>
             <option value="q3">What was your favourite teacher's name?</option>
         </select>
         <br><br>
-        <label for="">Security question answer:</label>
-        <input type="text" id="answer" name="answer">
+        <label for="answer">Security question answer:</label>
+        <input type="text" id="answer" name="answer" placeholder="question answer">
 
         <br><br>
 
-        <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+        <label for="bio">Your bio:</label><br>
+        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="About you..."></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Submit Form">
     </form>
 </body>
 </html>
