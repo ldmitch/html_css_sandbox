@@ -7,8 +7,12 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-p {
+p.intro {
     color: slateblue;
+}
+
+p.intro.feedback {
+    border: 1px solid black;
 }
 
 ul {
@@ -17,6 +21,14 @@ ul {
     border-color: slateblue;
 }
 
-li {
-    text-shadow: 1px 1px lightskyblue;
+div {
+    border: 2px solid slateblue;
+    margin: 10px;
+    padding: 10px;
+}
+
+span {
+    border: 2px solid slateblue;
+    margin: 10px;
+    padding: 10px;
 }
