@@ -32,3 +32,14 @@ span {
     margin: 10px;
     padding: 10px;
 }
+
+p {
+    border: inherit;
+    text-decoration: underline;
+}
+
+a[href*="html"] {
+    background-color: blueviolet;
+    color: white;
+    text-transform: uppercase;
+}
